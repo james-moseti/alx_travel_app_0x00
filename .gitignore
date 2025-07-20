@@ -1,0 +1,37 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+static_root/
+
+# Django secrets
+.env
+*.secret
+config/settings/local.py
+
+# Migrations 
+**/migrations/__pycache__/
+**/migrations/*.pyc
+
+# IDEs/editors
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Celery beat and cache
+celerybeat-schedule
+*.pid
+*.db
